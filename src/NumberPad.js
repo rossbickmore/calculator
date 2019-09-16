@@ -4,13 +4,15 @@ import NumberKey from './NumberKey'
 const NumberPadStyle = {
     postition: 'absolute',
     textAlign: 'center',
+    height: '48%',
+    width: '96%',
     display: 'grid',
     gridTemplateColumns: 'auto auto auto',
     gridTemplateRows: 'auto auto auto auto',
     alignContent: 'space-around',
-    gridRowGap: '10px',
-    gridColumnGap: '10px',
-    padding: '2% 2% 2% 2%',
+    // gridRowGap: '1%',
+    // gridColumnGap: '1%',
+    padding: '1% 1% 1% 1%',
   }
 
 

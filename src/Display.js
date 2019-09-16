@@ -5,12 +5,13 @@ import DisplayResult from './DisplayResult'
 const DisplayStyle = {
     postition: 'relative',
     display: 'grid',
-    gridTemplateColumns: 'auto',
-    gridTemplateRows: 'auto auto',
-    gridRowGap: '10px',
-    gridColumnGap: '10px',
-    alignContent: 'space-around',
-    padding: '2% 2% 2% 2%'
+    height: '23%',
+    width: '96%',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    alignItems: 'stretch',
+    padding: '1% 1% 1% 1%',
 }
 
 function Display() {

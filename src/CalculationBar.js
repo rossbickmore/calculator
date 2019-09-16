@@ -9,13 +9,15 @@ import EqualsKey from './EqualsKey'
 const CalculationBarStyle = {
     postition: 'relative',
     textAlign: 'center',
+    height: '23%',
+    width: '96%',
     display: 'grid',
     gridTemplateColumns: 'auto auto auto',
     gridTemplateRows: 'auto auto',
-    gridRowGap: '10px',
-    gridColumnGap: '10px',
+    // gridRowGap: '1%',
+    // gridColumnGap: '1%',
     alignContent: 'space-around',
-    padding: '2% 2% 2% 2%'
+    padding: '1% 1% 1% 1%',
 }
 
 function CalculationBar() {
