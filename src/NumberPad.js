@@ -2,25 +2,23 @@ import React from 'react';
 import NumberKey from './NumberKey'
 
 const NumberPadStyle = {
-    postition: 'relative',
-    top: '30%',
-    height: '70%',
-    width: '80%',
+    postition: 'absolute',
     textAlign: 'center',
     display: 'grid',
     gridTemplateColumns: 'auto auto auto',
-    gridTemplateRows: 'auto auto auto auto auto',
+    gridTemplateRows: 'auto auto auto auto',
+    alignContent: 'space-around',
     gridRowGap: '10px',
     gridColumnGap: '10px',
-    alignContent: 'space-around',
-    padding: '10px',
+    padding: '2% 2% 2% 2%',
   }
+
+
 
 function NumberPad(props) {
 
     return (
         <div style={NumberPadStyle}>
-        <NumberKey number={props.numbers[0]}/>
         <NumberKey number={props.numbers[1]}/>
         <NumberKey number={props.numbers[2]}/>
         <NumberKey number={props.numbers[3]}/>
@@ -30,6 +28,8 @@ function NumberPad(props) {
         <NumberKey number={props.numbers[7]}/>
         <NumberKey number={props.numbers[8]}/>
         <NumberKey number={props.numbers[9]}/>
+        <NumberKey number={props.numbers[0]}/>
+        <NumberKey number={props.numbers[10]}/>
         </div>
     )
 }

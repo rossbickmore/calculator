@@ -1,11 +1,16 @@
 import React from 'react'
 
+const DisplayCalculationStyle = {
+    position: 'relative',
+    width: '100%',
+    backgroundColor: 'white',
+    height: '30px'
+}
 
 function DisplayCalculation() {
 
     return (
-       <div>
-           
+       <div style={DisplayCalculationStyle}>
        </div> 
     )
 }
